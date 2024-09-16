@@ -1,0 +1,59 @@
+/* HeaderMobile visível em telas menores que 640px */
+@media (max-width: 639px) {
+    .HeaderDesktop {
+        display: none;
+    }
+    .HeaderMobile {
+        display: flex;
+    }
+}
+
+/* HeaderMobile visível entre 640px e 767px */
+@media (min-width: 640px) and (max-width: 767px) {
+    .HeaderDesktop {
+        display: none;
+    }
+    .HeaderMobile {
+        display: block;
+    }
+}
+
+/* HeaderMobile visível entre 768px e 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .HeaderDesktop {
+        display: none;
+    }
+    .HeaderMobile {
+        display: block;
+    }
+}
+
+/* HeaderDesktop visível entre 1024px e 1279px */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .HeaderMobile {
+        display: none;
+    }
+    .HeaderDesktop {
+        display: block;
+    }
+}
+
+/* HeaderDesktop visível entre 1280px e 1535px */
+@media (min-width: 1280px) and (max-width: 1535px) {
+    .HeaderMobile {
+        display: none;
+    }
+    .HeaderDesktop {
+        display: block;
+    }
+}
+
+/* HeaderDesktop visível em telas maiores ou iguais a 1536px */
+@media (min-width: 1536px) {
+    .HeaderMobile {
+        display: none;
+    }
+    .HeaderDesktop {
+        display: block;
+    }
+}
