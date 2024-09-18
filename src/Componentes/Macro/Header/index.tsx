@@ -1,7 +1,7 @@
-import iconLua from "../../assets/Header/iconLua.png";
-import logoMD from "../../assets/Header/logoMD.png";
-import iconFechar from "../../assets/Header/iconFechar.png";
-import iconMenu from "../../assets/Header/iconMenu.png";
+import iconLua from "../../../assets/Header/iconLua.png";
+import logoMD from "../../../assets/Header/logoMD.png";
+import iconFechar from "../../../assets/Header/iconFechar.png";
+import iconMenu from "../../../assets/Header/iconMenu.png";
 import { useState } from "react";
 import "./style.css";
 
@@ -15,9 +15,9 @@ export const Header = () => {
     return (
         <>
             <div className="HeaderMobile">
-                <header className="flex flex-row justify-between items-center bg-background ">
+                <header className="flex flex-row justify-between items-center bg-primaria ">
                     <img className="w-10" src={logoMD} alt="Logo do projeto de extensão Meninas Digitais UTFPR-CP" />
-                    <div className="space-x-10">
+                    <div className="space-x-10 ">
                         <button onClick={toggleMenu}>
                             {menuAberto ? <img src={iconFechar} alt="Ícone de fechar menubar" /> : <img src={iconMenu} alt="Ícone de menubar" />}
                         </button>
