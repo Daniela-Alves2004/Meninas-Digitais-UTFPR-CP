@@ -1,5 +1,3 @@
-import botaoAnterior from '../../../assets/Artigos/botaoAnterior.png';
-
 interface CardArtigoProps {
     id: string;
     tituloArtigo: string;
