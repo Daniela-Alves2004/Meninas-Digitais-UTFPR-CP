@@ -6,6 +6,8 @@ import feiraTrabalhador from "../src/assets/AcoesRealizadas/feiraTrabalhador.png
 import rodaConversa from "../src/assets/AcoesRealizadas/rodaConversa.png"
 import reuniaoColmeia from "../src/assets/AcoesRealizadas/reuniaoColmeia.png" 
 import visitaEtec from "../src/assets/AcoesRealizadas/visitaEtec.png"
+//adicionair o espaço para os outros eventos realizados
+//Mudei algumas fotos devido a qualidade
 const infos =[
     {
         id: uuidv4(),

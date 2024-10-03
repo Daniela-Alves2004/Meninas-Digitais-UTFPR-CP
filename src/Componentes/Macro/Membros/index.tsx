@@ -4,6 +4,7 @@ import { ContainerMembro } from "../ContainerMembros";
 import { BotaoVoltarProximo } from "../../Micro/BotaoVoltarProximo";
 
 export const Membros = () => {
+    //logica para exibir os membros da equipe
     const [membroAtual, setMembroAtual] = useState<number>(0);
 
     const btAnterior = () => {
@@ -21,7 +22,7 @@ export const Membros = () => {
     const membrosParaExibir = infosMembros.slice(membroAtual, membroAtual + 4);
 
     return (
-        <div>
+        <div id="membros-equipe">
             <h1><span>Conheça os</span> Membros da Equipe</h1>
 
             <div className="flex flex-row">

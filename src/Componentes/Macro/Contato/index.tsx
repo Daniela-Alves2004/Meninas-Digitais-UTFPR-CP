@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import fotoEquipe from "../../../assets/Contato/fotoEquipe.png";
 
 export const Contato = () => {
+    //logica usando email js para enviar as duvidas dos usuarios
     const formRef = useRef<HTMLFormElement>(null);
 
     const enviarEmail = (event: React.FormEvent) => {
@@ -16,12 +17,11 @@ export const Contato = () => {
                     alert("E-mail enviado com sucesso!");
                 })
                 .catch((error) => {
+                    //se a mensagem não for enviada, exibe um alerta com o erro
                     alert("Erro ao enviar e-mail: " + error);
                 });
         }
     };
-
-
     return (
         <div className='flex flex-row'>
             <div>

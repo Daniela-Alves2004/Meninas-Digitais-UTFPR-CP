@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import mariaFernanda from "../../../assets/Membros/mariaFernanda.png";
+//adicionar outros membros da equipe
 const infosMembros = [
     {
         id: uuidv4(),

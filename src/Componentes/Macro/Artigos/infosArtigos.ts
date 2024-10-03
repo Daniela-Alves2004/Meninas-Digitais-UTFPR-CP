@@ -13,6 +13,8 @@ const infosArtigos = {
             IssnArtigo:"ISSN: 2175-9235",
         },
     ],
+    // Adicionar os novos artigos aqui
+    //o artigo teste é para ver se o código do botao está funcionando
     artigoTeste:[
         {
             id: uuidv4(),
