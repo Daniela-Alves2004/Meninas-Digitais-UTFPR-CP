@@ -6,6 +6,7 @@ import DadosAcoes from "./Componentes/Macro/DadosAcoes";
 import infos from "./infos";
 import { Artigos } from "../src/Componentes/Macro/Artigos";
 import { Membros } from './Componentes/Macro/Membros';
+import { Contato } from './Componentes/Macro/Contato';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <DadosAcoes dados={infos} />
       <Artigos />
       <Membros />
+      <Contato />
     </>
   );
 }
