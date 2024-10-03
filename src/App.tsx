@@ -7,6 +7,7 @@ import infos from "./infos";
 import { Artigos } from "../src/Componentes/Macro/Artigos";
 import { Membros } from './Componentes/Macro/Membros';
 import { Contato } from './Componentes/Macro/Contato';
+import { Footer } from './Componentes/Macro/Footer';
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Artigos />
       <Membros />
       <Contato />
+      <Footer />
     </>
   );
 }
