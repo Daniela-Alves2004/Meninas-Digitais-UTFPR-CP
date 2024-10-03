@@ -1,6 +1,7 @@
 import botaoAnterior from '../../../assets/Artigos/botaoAnterior.png';
 import botaoDepois from '../../../assets/Artigos/botaoDepois.png';
 export const BotaoVoltarProximo = ({ btAnterior, btDepois }: { btAnterior: () => void, btDepois: () => void }) => {
+    //botões para voltar e ir para o próximo artigo
     return (
         <div className='flex flex-row justify-center'>
             <button onClick={btAnterior}>

@@ -1,3 +1,4 @@
+//define o tipo das propriedades do componente ContainerMembro
 interface ContainerMembroProps {
     id: string;
     imagemMembro: string;
@@ -6,7 +7,7 @@ interface ContainerMembroProps {
     setorMembro: string;
     descMembro: string;
 }
-
+//estrutura do componente ContainerMembro
 export const ContainerMembro = ({ imagemMembro, altMembro, nomeMembro, setorMembro, descMembro }: ContainerMembroProps) => {
     return (
         <div>

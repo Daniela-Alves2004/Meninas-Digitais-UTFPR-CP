@@ -1,3 +1,4 @@
+//define o tipo de cada propriedade do componente CardArtigo
 interface CardArtigoProps {
     id: string;
     tituloArtigo: string;
@@ -8,9 +9,10 @@ interface CardArtigoProps {
     IssnArtigo: string;
 
 }
-
+//cria um props para tipar os valores do componente CardArtigo
 export const CardArtigo = ({ tituloArtigo, textoArtigo, imagemArtigo, altArtigo, revistaArtigo, IssnArtigo }: CardArtigoProps) => {
     return (
+        //estrutura do componente CardArtigo
         <div className="flex flex-row" >
             <div>
                 <img src={imagemArtigo} alt={altArtigo} />
